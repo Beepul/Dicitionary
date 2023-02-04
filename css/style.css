@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Kanit:wght@300;400;500;600;700&family=Kavoon&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.border, header .container {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.258);
+}
+
+header .logo h1 {
+  font-family: "Kanit", sans-serif !important;
+  font-size: 32px;
+}
+header .logo h1 span {
+  color: rgb(255, 0, 255);
+}
+header .btn {
+  font-weight: 500;
+  color: rgb(31, 31, 31);
+  font-size: 18px;
+}
+header i {
+  font-size: 22px !important;
+  cursor: pointer;
+}
+@media (max-width: 700px) and (min-width: 400px) {
+  header .col-1 {
+    width: 13%;
+  }
+}
+
+.input-con input {
+  width: 100%;
+  height: 54px;
+  background-color: rgba(219, 219, 219, 0.429);
+  border: 0px;
+  padding-left: 20px;
+  border-radius: 6px;
+}
+.input-con input:focus {
+  outline: none;
+}
+.input-con .container {
+  position: relative;
+  padding: 0px;
+}
+.input-con i {
+  color: rgb(255, 0, 255);
+  position: absolute;
+  top: 24%;
+  right: 3%;
+  font-size: 24px;
+}
+
+.topic h2 {
+  font-size: 42px;
+  font-family: "Kanit", sans-serif;
+  color: rgb(31, 31, 31);
+}
+.topic p {
+  color: rgb(255, 0, 255);
+  font-size: 20px;
+}
+.topic i {
+  color: rgb(255, 0, 255);
+  background-color: rgba(255, 135, 255, 0.473);
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.noun-con {
+  display: none;
+}
+
+.noun h2 {
+  color: rgb(31, 31, 31);
+  font-size: 20px;
+  font-family: "Kavoon", cursive;
+}
+
+.mean-head {
+  font-size: 20px;
+  color: gray;
+  font-family: "Kanit", sans-serif;
+}
+
+.list-mean li {
+  color: rgb(31, 31, 31);
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+}
+
+.foot-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.foot-con .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.foot-con p, .foot-con h4 {
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+}
+.foot-con p {
+  color: gray;
+  padding-top: 6px;
+}
+.foot-con h4 {
+  color: rgb(255, 0, 255);
+  padding-right: 14px;
+}
+
+.list-mean dt {
+  color: rgb(31, 31, 31);
+}
+.list-mean dl {
+  color: rgb(99, 99, 99);
+}
+
+.active {
+  background-color: rgb(31, 31, 31) !important;
+  color: #fff;
+}
+.active .dropdown a {
+  color: #fff;
+}
+.active .dropdown ul a {
+  color: rgb(31, 31, 31);
+}
+.active .search-bar {
+  color: #fff;
+}
+.active .search-bar::-webkit-input-placeholder {
+  color: #fff;
+}
+.active .search-bar::-moz-placeholder {
+  color: #fff;
+}
+.active .search-bar:-ms-input-placeholder {
+  color: #fff;
+}
+.active .search-bar::-ms-input-placeholder {
+  color: #fff;
+}
+.active .search-bar::placeholder {
+  color: #fff;
+}
+.active .topic h2 {
+  color: #fff;
+}
+.active .noun h2 {
+  color: #fff;
+}
+.active .list-mean li, .active .list-mean dt {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
